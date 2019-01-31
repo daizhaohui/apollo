@@ -1,0 +1,7 @@
+# import Post from "posts.graphql"
+# import Comment from "commments.graphql"
+
+type Query {
+  posts: [Post]
+  comments: [Comment]
+}

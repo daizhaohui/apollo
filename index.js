@@ -1,12 +1,9 @@
 const Koa = require('koa');
 const {
-  ApolloServer,
-  gql
+  ApolloServer
 } = require('apollo-server-koa');
-const {
-  typeDefs,
-  resolvers
-} = require('./schema');
+const typeDef = require('./schema');
+const resolvers = require('./resolvers');
 const mocks = require('./mocks');
 
 
